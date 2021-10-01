@@ -1,0 +1,17 @@
+# ENVIRONMENT VARIABLES FOR SCRIPTS
+
+DB_HOST=192.168.56.10
+DB_PORT=5432
+DB_USER=blibli
+DB_PASSWORD=yourpasshere
+DB_NAME=blibli
+DB_TYPE=postgresql
+
+# Request Var
+HEADER = application/json
+APP_POST_URL = http://127.0.0.1:8000/app-name/
+CURRENT_POST_URL = http://127.0.0.1:8000/current-version/
+CVE_POST_URL = http://127.0.0.1:8000/cve/
+LATEST_POST_URL = http://127.0.0.1:8000/latest-version/
+
+CHROMEDRIVER_PATH= /usr/bin/chromedriver

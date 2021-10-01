@@ -1,0 +1,25 @@
+{
+    "listeners": {
+        "*:80": {
+            "pass": "applications/fastapi"
+        }
+    },
+
+    "applications": {
+        "fastapi": {
+            "type": "python 3.9",
+            "path": "/fastapi",
+            "home": "/fastapi/.myenv/",
+            "module": "main",
+            "callable": "app",
+            "environment": {
+                "DB_HOST": "192.168.56.10",
+                "DB_PORT": "5432",
+                "DB_USER": "blibli",
+                "DB_PASSWORD": "yourpasshere",
+                "DB_NAME": "blibli",
+                "DB_TYPE": "postgresql"
+            }
+        }
+    }
+}

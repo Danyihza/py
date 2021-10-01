@@ -1,0 +1,9 @@
+fastapi==0.68.1
+uvicorn==0.15.0
+sqlalchemy==1.4.25
+psycopg2-binary==2.9.1
+async_exit_stack==1.0.1
+async_generator==1.10
+selenium==3.141.0
+python-dotenv==0.19.0
+requests==2.26.0
